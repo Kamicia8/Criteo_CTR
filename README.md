@@ -41,7 +41,7 @@ This command will download the dataset as a ZIP file. Unzip the file to access t
 ## Command to run Docker container
 
 ```
-docker run -p 8888:8888 -p 4040:4040 -v ${PWD}:/home/jovyan/work jupyter/all-aprk-notebook
+docker run -p 8888:8888 -p 4040:4040 -v ${PWD}:/home/jovyan/work jupyter/all-spark-notebook
 ```
 
 
